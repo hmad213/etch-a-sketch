@@ -1,0 +1,56 @@
+html{
+    height: 100%;
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    text-align: center;
+    background-color: red;
+    padding: 30px;
+    padding-top: 20px;
+    border-radius: 50px;
+}
+
+.container{
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    margin: 10px 0px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(228, 74, 74);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.row{
+    flex: 1;
+    display: flex;
+}
+
+.box{
+    flex: 1;
+}
